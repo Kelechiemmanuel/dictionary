@@ -166,7 +166,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
 if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 350) {
-    mybutton.style.backgroundColor = "#061f33";
+    mybutton.style.backgroundColor = "white";
 
 } else {
     mybutton.style.backgroundColor = "white";

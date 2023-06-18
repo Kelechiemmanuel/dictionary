@@ -732,6 +732,21 @@
         }
         
       }
+      @media screen and (max-width: 460px) {
+        .form-login{
+         display: grid;
+        }
+        .english{
+          margin-left: 20px;
+        }
+        #signout{
+          width: 85%;
+        }
+        #user{
+          margin-left: 20px;
+        }
+        
+      }
 
       @media screen and (min-width: 1200px) {
         .box-menu{

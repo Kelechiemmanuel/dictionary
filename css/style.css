@@ -19,8 +19,6 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    /* background: dodgerblue linear-gradient(45deg, orange, white, white); */
-    /* box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05); */
     column-gap: 30px;
 }
 
@@ -197,13 +195,15 @@ a.google span{
 }
 
 @media screen and (max-width:1200px) {
-    /* .form{
-        margin: 20px 10px;
-    } */
-
     .container{
         background: none;
     }
+}
+@media screen and (max-width: 460px) {
+    .container{
+        width: 40%;
+    }
+   
 }
 
 
