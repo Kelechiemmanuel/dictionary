@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A - z key Dictionary</title>
+    <link rel="shortcut icon" href="images/key.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+
+  <div class="social-btn">
+    <button class="btn-pri">
+     <a href="https://www.facebook.com/account">
+      <i class="fa-brands fa-facebook-f media"></i>
+     </a>
+    </button>
+    <button class="btn-pri">
+     <a href="https://www.twitter.com/account">
+      <i class="fa-brands fa-twitter media"></i>
+     </a>
+    </button>
+    <button class="btn-pri">
+      <a href="https://www.google.com/account">
+        <i class="fa-brands fa-google media"></i>
+      </a>
+    </button>
+    <button class="btn-pri">
+     <a href="https://www.linkedin.com">
+      <i class="fa-brands fa-linkedin media"></i>
+     </a>
+    </button>
+</div>
+
+
+<section class="nav-container">
+<div class="box-con" id="myNav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div class="box">
+  <li class="nav-link">
+       <button class="definition" onclick="darkMode()">
+    <img class="light2" src="moon.png" alt="">
+    </i>
+      <i class="fa-duotone fa-sun-bright"></i>
+    </button>
+  </li>
+  <li class="nav-link">
+    <button class="definition" onclick="lightMode()">
+      <img class="light" src="shine.png" alt="">
+     </button>
+  </li>
+  <li class="nav-link">
+    <a class="btc" href="index.html">Login</a>
+  </li>
+  <li class="nav-link">
+    <a class="btcc31" href="index.html">Get Premium</a>
+  </li>
+</div>
+</div>
+    <nav id="repeat">
+      <div class="logo">
+          <h3 class="name" id="DarkModetext">
+            <a class="linkin-head" href="index.html">A - Z Key Dictionary</a>
+          </h3> 
+      </div>
+     
+        <div class="light-con">
+        <button class="definition" onclick="darkMode()">
+        <img class="light2" src="moon.png" alt="">
+        </button>
+        <button class="definition" onclick="lightMode()">
+         <img class="light" src="shine.png" alt="">
+        </button>
+
+        <div>
+          <button class="btcc">
+            <a  class="linked3" href="index.html">Login</a>
+          </button>
+          <button class="btcc3">
+            <a class="linked" href="index.html">Get Premium</a>
+          </button>
+        </div>
+        
+      </div>
+        <div class="box-menu">
+          <span class="span" onclick="openNav()">&#9776;</span>
+        </div>
+        </nav>
+      </section>
+        
+        <div class="wrapper">
+          <header>English Dictionary</header>
+          <div class="search">
+            <input type="text" placeholder="Search a word" required spellcheck="false">
+            <i class="fas fa-search"></i>
+            <span class="material-icons">close</span>
+          </div>
+          <p class="info-text">Type any existing word and press enter to get meaning, example, synonyms, etc.</p>
+          <ul>
+            <li class="word">
+              <div class="details">
+                <p>__</p>
+                <span>_ _</span>
+              </div>
+              <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+              <li class="meaning">
+                <div class="details">
+                  <p>Meaning</p>
+                  <span>___</span>
+                </div>
+              </li>
+              <li class="example">
+                <div class="details">
+                  <p>Example</p>
+                  <span>___</span>
+                </div>
+              </li>
+              <li class="synonyms">
+                <div class="details">
+                  <p>Synonyms</p>
+                  <div class="list"></div>
+                </div>
+              </li>
+            </div>
+          </ul>
+        <div class="btn-con">
+          <div>
+          <button id="demo" onclick="subscribe()" class="js-subscribe-button">Subscribe</button>
+        </div>
+        <div class="up-down-btn">
+          <button id="demo2" class="js-subscribe-button2" onclick=vote()>
+            <i id="upVote" class="fas fa-thumbs-up thumbs"></i>
+          </button>
+          <div class="break-down"></div>
+          <button id="demo2" class="js-subscribe-button3">
+            <i id="downVote" class="fa-solid fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="display">
+          <button class="button2" data-modal="modalOne">
+         <i class="fa-solid fa-comment comments"></i>
+       </button>
+       </div>
+
+        </div>
+        </div>
+        <section>
+          <div class="swipe-container" id="myHelp">
+            <a href="javascript:void(0)" class="cancel" onclick="swipeClose()">&times;</a>
+            <div class="swipe">
+              <h4 class="here">We're here for you</h4>
+              <a class="help-link" href="index.html">Login</a>
+              <a class="help-link" href="index.html">Get Premium</a>
+              <a class="help-link" href="#">Call 2348148611216</a>
+              <a class="help-link" href="#">Help</a>
+            </div>
+          </div>
+          <h2 class="open-up" onclick="swipeOpen()">Need Help?</h2>
+        </section>
+
+
+       <div id="modalOne" class="modal">
+        
+         <div class="modal-content">
+           <div class="contact-form">
+             <span class="close">&times;</span>
+             <form class="former" action="#">
+               <h2 class="sign">Comments</h2>
+               <div class="comment-con">
+                 <input type="text" id="comment-box" placeholder="Enter comment">
+                 <button id="post" class="btn-5">
+                   <i class='fa fa-send comments'></i>
+                 </button>
+                 <ul id="unordered"></ul>
+               </div>
+              
+             </form>
+           </div>
+         </div>
+       </div>
+       
+    <section class="container-forms">
+        <div class="form-login">
+           
+            
+            <p id="user">Logged in as: </p> 
+            <button id="signout">Sign Out</button>
+        </div>
+    </section>
+
+    <div class="line333"></div>
+    <footer>
+        <div class="english">
+        <div class="social-footer">
+          <div>
+            <h3 class="footer-logo">A - Z key Dictionary</h3>
+          </div>
+          <div>
+            <p>&copy; 2023 A - Z English Dictionary. All Rights Reserved. Privacy Policy </p>
+          </div>
+          <div>
+            <span>follow us:</span>
+          <button class="btn-pri3">
+            <a href="https://www.facebook.com">
+              <i class="fa-brands fa-facebook-f medias"></i>
+            </a>
+          </button>
+          <button class="btn-pri3">
+         <a href="https://www.twitter.com/account">
+          <i class="fa-brands fa-twitter medias"></i>
+         </a>
+          </button>
+          <button class="btn-pri3">
+            <a href="https://www.google.com/account">
+              <i class="fa-brands fa-google medias"></i>
+            </a>
+          </button>
+          <button class="btn-pri3">
+           <a href="https://www.linkedin.com">
+            <i class="fa-brands fa-linkedin medias"></i>
+           </a>
+          </button>
+        </div>
+        </div>
+      
+        </div>
+      </footer>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+   <script src="js/signout.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
