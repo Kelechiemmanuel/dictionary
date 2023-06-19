@@ -124,7 +124,7 @@ post.addEventListener("click", function(){
     var li = document.createElement("li");
     var text = document.createTextNode(commentBoxValue);
     li.appendChild(text);
-    document.getElementById("unordered").appendChild(li).style.color = 'orange';
+    document.getElementById("unordered").appendChild(li).style.color = 'black';
     document.getElementById("unordered").appendChild(li).style.listStyle = 'none';
 });
 
